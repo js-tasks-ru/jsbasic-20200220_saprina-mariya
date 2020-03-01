@@ -1,5 +1,3 @@
-import { strict } from "assert";
-
 /**
  * Эту функцию трогать не нужно
  */
