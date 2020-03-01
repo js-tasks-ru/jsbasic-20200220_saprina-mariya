@@ -1,3 +1,5 @@
+import { strict } from "assert";
+
 /**
  * Эту функцию трогать не нужно
  */
@@ -10,6 +12,7 @@ function print(text) {
  * чтобы функция sayHello работала корректно
  */
 function isValid(name) {
+  return !!name && name.length >= 4 && name.indexOf(' ') === -1;
 }
 
 function sayHello() {
