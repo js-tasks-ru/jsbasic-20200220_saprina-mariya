@@ -7,11 +7,11 @@ function getMinMax(str) {
   let array = str.split(' ');
   for (let item of array) {
     if (item.includes(',')) {
-        let result = item.split(',');
+      let result = item.split(',');
 
-        for (let subItem of result) {
-            array.push(subItem);
-        }
+      for (let subItem of result) {
+          array.push(subItem);
+      }
     }
   }
   array = array
